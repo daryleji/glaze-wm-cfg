@@ -83,7 +83,7 @@ bar:
   opacity: 1.0
   background: *crust_tp
   foreground: *blue
-  font_family: "FiraCode Nerd Font"
+  font_family: "CaskaydiaCove Nerd Font"
   font_size: "13px"
   padding: "4px 6px"
   offset_x: "0"
@@ -223,9 +223,7 @@ keybindings:
     bindings: ["Alt+X"]
   - command: "exec explorer"
     bindings: ["Alt+E"]
-  - command: "exec '%LOCALAPPDATA%\\Programs\\cursor\\Cursor.exe'"
 
-    bindings: ["Alt+W"]
   # Shift focus in a given direction.
   - command: "focus left"
     bindings: ["Alt+H", "Alt+Left"]
